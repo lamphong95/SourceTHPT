@@ -1,0 +1,71 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="PreviewIndent">-1</property>
+  <property name="LevelIndent">-1</property>
+  <property name="GroupFooterShowMode">VisibleIfExpanded</property>
+  <property name="PreviewLineCount">-1</property>
+  <property name="ScrollStyle">LiveVertScroll, LiveHorzScroll</property>
+  <property name="BestFitMaxRowCount">-1</property>
+  <property name="ChildGridLevelName" />
+  <property name="GroupFormat">{0}: [#image]{1} {2}</property>
+  <property name="GroupRowHeight">-1</property>
+  <property name="VertScrollTipFieldName" />
+  <property name="NewItemRowText" />
+  <property name="GroupPanelText" />
+  <property name="PreviewFieldName" />
+  <property name="FocusRectStyle">CellFocus</property>
+  <property name="BorderStyle">Default</property>
+  <property name="ViewCaption" />
+  <property name="SynchronizeClones">true</property>
+  <property name="DetailHeight">350</property>
+  <property name="Name">gridViewGiaoDich</property>
+  <property name="DetailTabHeaderLocation">Top</property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="HorzScrollStep">3</property>
+  <property name="ShowButtonMode">ShowAlways</property>
+  <property name="ViewCaptionHeight">-1</property>
+  <property name="RowHeight">-1</property>
+  <property name="OptionsSelection" isnull="true" iskey="true">
+    <property name="MultiSelectMode">RowSelect</property>
+  </property>
+  <property name="OptionsNavigation" isnull="true" iskey="true">
+    <property name="AutoMoveRowFocus">true</property>
+    <property name="EnterMoveNextColumn">false</property>
+    <property name="UseTabKey">true</property>
+    <property name="AutoFocusNewRow">false</property>
+    <property name="UseAdvHorzNavigation">true</property>
+    <property name="UseAdvVertNavigation">true</property>
+    <property name="UseOfficePageNavigation">true</property>
+  </property>
+  <property name="BandPanelRowHeight">-1</property>
+  <property name="RowSeparatorHeight">0</property>
+  <property name="ColumnPanelRowHeight">-1</property>
+  <property name="FooterPanelHeight">-1</property>
+  <property name="VertScrollVisibility">Auto</property>
+  <property name="HorzScrollVisibility">Auto</property>
+  <property name="Columns" iskey="true" value="0" />
+  <property name="FixedLineWidth">2</property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="MinBandPanelRowCount">1</property>
+  <property name="Bands" iskey="true" value="1">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="MinWidth">20</property>
+      <property name="Columns" iskey="true" value="0" />
+      <property name="Name">gridBand1</property>
+      <property name="Caption">gridBand1</property>
+      <property name="Children" iskey="true" value="0" />
+    </property>
+  </property>
+  <property name="FormatConditions" iskey="true" value="0" />
+  <property name="ActiveFilterString" />
+  <property name="GroupSummary" iskey="true" value="1">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="DisplayFormat">. Tổng tiền = {0}</property>
+      <property name="SummaryType">Sum</property>
+      <property name="FieldName">SoTien</property>
+      <property name="Tag" type="System.String">1</property>
+      <property name="ShowInGroupColumnFooterName" />
+    </property>
+  </property>
+  <property name="GroupSummarySortInfoState" />
+</XtraSerializer>
